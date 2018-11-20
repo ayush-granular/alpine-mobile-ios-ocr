@@ -1,0 +1,166 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		02FBF55620BDB951008EDA7A /* help.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = help.h; sourceTree = "<group>"; };
+		02FBF55720BDB951008EDA7A /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		02FBF55820BDB951008EDA7A /* imgproc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = imgproc.c; sourceTree = "<group>"; };
+		02FBF55920BDB951008EDA7A /* debian */ = {isa = PBXFileReference; lastKnownFileType = folder; path = debian; sourceTree = "<group>"; };
+		02FBF55A20BDB951008EDA7A /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		02FBF55B20BDB951008EDA7A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		02FBF55C20BDB951008EDA7A /* ssocr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssocr.c; sourceTree = "<group>"; };
+		02FBF55D20BDB951008EDA7A /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		02FBF55E20BDB951008EDA7A /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		02FBF55F20BDB951008EDA7A /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		02FBF56020BDB951008EDA7A /* help.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = help.c; sourceTree = "<group>"; };
+		02FBF56120BDB951008EDA7A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		02FBF56220BDB951008EDA7A /* imgproc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgproc.h; sourceTree = "<group>"; };
+		02FBF56320BDB951008EDA7A /* ssocr.1.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = ssocr.1.in; sourceTree = "<group>"; };
+		02FBF56420BDB951008EDA7A /* ssocr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ssocr.h; sourceTree = "<group>"; };
+		02FBF56520BDB951008EDA7A /* THANKS */ = {isa = PBXFileReference; lastKnownFileType = text; path = THANKS; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02FBF55020BDB951008EDA7A = {
+			isa = PBXGroup;
+			children = (
+				02FBF55620BDB951008EDA7A /* help.h */,
+				02FBF55720BDB951008EDA7A /* INSTALL */,
+				02FBF55820BDB951008EDA7A /* imgproc.c */,
+				02FBF55920BDB951008EDA7A /* debian */,
+				02FBF55A20BDB951008EDA7A /* AUTHORS */,
+				02FBF55B20BDB951008EDA7A /* Makefile */,
+				02FBF55C20BDB951008EDA7A /* ssocr.c */,
+				02FBF55D20BDB951008EDA7A /* defines.h */,
+				02FBF55E20BDB951008EDA7A /* README */,
+				02FBF55F20BDB951008EDA7A /* COPYING */,
+				02FBF56020BDB951008EDA7A /* help.c */,
+				02FBF56120BDB951008EDA7A /* .gitignore */,
+				02FBF56220BDB951008EDA7A /* imgproc.h */,
+				02FBF56320BDB951008EDA7A /* ssocr.1.in */,
+				02FBF56420BDB951008EDA7A /* ssocr.h */,
+				02FBF56520BDB951008EDA7A /* THANKS */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		02FBF55520BDB951008EDA7A /* ssocr-master */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 02FBF56620BDB951008EDA7A /* Build configuration list for PBXLegacyTarget "ssocr-master" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/achamoli/Downloads/ssocr-master";
+			dependencies = (
+			);
+			name = "ssocr-master";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ssocr-master";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		02FBF55120BDB951008EDA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 02FBF55420BDB951008EDA7A /* Build configuration list for PBXProject "ssocr-master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02FBF55020BDB951008EDA7A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FBF55520BDB951008EDA7A /* ssocr-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		02FBF55220BDB951008EDA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		02FBF55320BDB951008EDA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		02FBF56720BDB951008EDA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "ssocr-master";
+			};
+			name = Debug;
+		};
+		02FBF56820BDB951008EDA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "ssocr-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FBF55420BDB951008EDA7A /* Build configuration list for PBXProject "ssocr-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FBF55220BDB951008EDA7A /* Debug */,
+				02FBF55320BDB951008EDA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FBF56620BDB951008EDA7A /* Build configuration list for PBXLegacyTarget "ssocr-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FBF56720BDB951008EDA7A /* Debug */,
+				02FBF56820BDB951008EDA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FBF55120BDB951008EDA7A /* Project object */;
+}
